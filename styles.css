@@ -1,0 +1,26 @@
+.main-container {
+    border: 5px solid #000000;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    display: block;
+}
+
+section {
+    border: 2px solid #333333 !important;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.profil { border-color: #6c757d !important; }
+.playlist { border-color: #007bff !important; }
+.catalogue { border-color: #28a745 !important; }
+
+body {
+    background-color: #f0f0f0;
+    padding: 0;
+    margin: 0;
+}
