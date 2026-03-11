@@ -9,15 +9,23 @@
 }
 
 section {
-    border: 2px solid #333333 !important;
+    border: 2px solid #333333;
     margin-bottom: 20px;
     padding: 15px;
     border-radius: 5px;
 }
 
-.profil { border-color: #6c757d !important; }
-.playlist { border-color: #007bff !important; }
-.catalogue { border-color: #28a745 !important; }
+.profil { 
+    border-color: #6c757d
+}
+
+.playlist { 
+    border-color: #007bff
+}
+
+.catalogue { 
+    border-color: #28a745 
+}
 
 body {
     background-color: #f0f0f0;

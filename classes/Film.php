@@ -1,5 +1,4 @@
 <?php
-
 class Film extends Video {
     private float $budget;
     private float $boxOffice;

@@ -1,5 +1,4 @@
 <?php
-
 class Serie extends Video {
     private string $statut; 
     private array $episodes = [];
@@ -22,9 +21,9 @@ class Serie extends Video {
     public function getType(): string { return "Série"; }
 
     public function afficherDetails(): string {
-        $res = "SÉRIE : {$this->titre} - Statut: {$this->statut} - " . count($this->episodes) . " épisodes (" . $this->getDureeTotale() . "min)\n";
+        $res = "SÉRIE : {$this->titre} - Statut: {$this->statut} - " . count($this->episodes) . " épisodes (" . $this->getDureeTotale() . "min)<br>";
         foreach($this->episodes as $ep) {
-            $res .= "  > " . $ep->afficherDetails() . "\n";
+            $res .= "  > " . $ep->afficherDetails() . "<br>";
         }
         return $res;
     }

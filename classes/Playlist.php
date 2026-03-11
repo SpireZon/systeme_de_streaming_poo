@@ -1,5 +1,4 @@
 <?php
-
 class Playlist {
     private string $nom;
     private array $videos = [];
