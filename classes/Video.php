@@ -32,7 +32,7 @@ abstract class Video {
     public function formaterDuree(): string {
         $h = floor($this->duree / 60);
         $m = $this->duree % 60;
-        return ($h > 0) ? "{$h} heures " . str_pad($m, 2, "0", STR_PAD_LEFT) : "{$m} minutes";
+        return ($h > 0) ? "{$h} heures {$m}" : "{$m} minutes";
     }
 
     abstract public function afficherDetails(): string;
